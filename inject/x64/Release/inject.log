@@ -1,0 +1,14 @@
+﻿  GetProcAddressR.c
+C:\Users\stnevans\source\repos\ReflectiveDLLInjection\inject\src\GetProcAddressR.c(70,26): warning C4311: 'type cast': pointer truncation from 'LPCSTR' to 'DWORD'
+C:\Users\stnevans\source\repos\ReflectiveDLLInjection\inject\src\GetProcAddressR.c(75,26): warning C4311: 'type cast': pointer truncation from 'LPCSTR' to 'DWORD'
+  Inject.c
+  LoadLibraryR.c
+C:\Users\stnevans\source\repos\ReflectiveDLLInjection\inject\src\LoadLibraryR.c(222,105): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(C:\Users\stnevans\source\repos\ReflectiveDLLInjection\x64\Release\inject.exe) does not match the Linker's OutputFile property value (C:\Users\stnevans\source\repos\ReflectiveDLLInjection\x64\Release\inject.x64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1373,5): warning MSB8012: TargetName(inject) does not match the Linker's OutputFile property value (inject.x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  inject.vcxproj -> C:\Users\stnevans\source\repos\ReflectiveDLLInjection\x64\Release\inject.exe
+          1 file(s) copied.
